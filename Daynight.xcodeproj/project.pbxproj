@@ -61,7 +61,6 @@
 		01CFFA372B0DFA1A00D1A9A6 = {
 			isa = PBXGroup;
 			children = (
-				017452D12B14F43200326750 /* Launch Screen.storyboard */,
 				01CFFA422B0DFA1A00D1A9A6 /* Daynight */,
 				01CFFA412B0DFA1A00D1A9A6 /* Products */,
 			);
@@ -78,6 +77,7 @@
 		01CFFA422B0DFA1A00D1A9A6 /* Daynight */ = {
 			isa = PBXGroup;
 			children = (
+				017452D12B14F43200326750 /* Launch Screen.storyboard */,
 				01CFFA432B0DFA1A00D1A9A6 /* DaynightApp.swift */,
 				017452C52B0E458D00326750 /* Utils */,
 				017452C62B0E45C000326750 /* Views */,
