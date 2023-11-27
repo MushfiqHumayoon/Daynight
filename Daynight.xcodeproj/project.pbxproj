@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		017452C42B0E458400326750 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017452C32B0E458300326750 /* Extensions.swift */; };
+		017452CA2B0E46B300326750 /* NMButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017452C92B0E46B300326750 /* NMButtonStyle.swift */; };
+		017452CC2B0E51EE00326750 /* NMBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017452CB2B0E51EE00326750 /* NMBackground.swift */; };
 		01CFFA442B0DFA1A00D1A9A6 /* DaynightApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CFFA432B0DFA1A00D1A9A6 /* DaynightApp.swift */; };
 		01CFFA462B0DFA1A00D1A9A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CFFA452B0DFA1A00D1A9A6 /* ContentView.swift */; };
 		01CFFA482B0DFA1B00D1A9A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01CFFA472B0DFA1B00D1A9A6 /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		017452C32B0E458300326750 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		017452C92B0E46B300326750 /* NMButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NMButtonStyle.swift; sourceTree = "<group>"; };
+		017452CB2B0E51EE00326750 /* NMBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NMBackground.swift; sourceTree = "<group>"; };
 		01CFFA402B0DFA1A00D1A9A6 /* Daynight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Daynight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01CFFA432B0DFA1A00D1A9A6 /* DaynightApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaynightApp.swift; sourceTree = "<group>"; };
 		01CFFA452B0DFA1A00D1A9A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +38,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		017452C52B0E458D00326750 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				017452C32B0E458300326750 /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		017452C62B0E45C000326750 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				01CFFA452B0DFA1A00D1A9A6 /* ContentView.swift */,
+				017452C92B0E46B300326750 /* NMButtonStyle.swift */,
+				017452CB2B0E51EE00326750 /* NMBackground.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		01CFFA372B0DFA1A00D1A9A6 = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				01CFFA432B0DFA1A00D1A9A6 /* DaynightApp.swift */,
-				01CFFA452B0DFA1A00D1A9A6 /* ContentView.swift */,
+				017452C52B0E458D00326750 /* Utils */,
+				017452C62B0E45C000326750 /* Views */,
 				01CFFA472B0DFA1B00D1A9A6 /* Assets.xcassets */,
 				01CFFA492B0DFA1B00D1A9A6 /* Preview Content */,
 			);
@@ -138,7 +163,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				01CFFA462B0DFA1A00D1A9A6 /* ContentView.swift in Sources */,
+				017452C42B0E458400326750 /* Extensions.swift in Sources */,
 				01CFFA442B0DFA1A00D1A9A6 /* DaynightApp.swift in Sources */,
+				017452CC2B0E51EE00326750 /* NMBackground.swift in Sources */,
+				017452CA2B0E46B300326750 /* NMButtonStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
