@@ -10,6 +10,7 @@
 		017452C42B0E458400326750 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017452C32B0E458300326750 /* Extensions.swift */; };
 		017452CA2B0E46B300326750 /* NMButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017452C92B0E46B300326750 /* NMButtonStyle.swift */; };
 		017452CC2B0E51EE00326750 /* NMBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017452CB2B0E51EE00326750 /* NMBackground.swift */; };
+		017452D22B14F43200326750 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 017452D12B14F43200326750 /* Launch Screen.storyboard */; };
 		01CFFA442B0DFA1A00D1A9A6 /* DaynightApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CFFA432B0DFA1A00D1A9A6 /* DaynightApp.swift */; };
 		01CFFA462B0DFA1A00D1A9A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CFFA452B0DFA1A00D1A9A6 /* ContentView.swift */; };
 		01CFFA482B0DFA1B00D1A9A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01CFFA472B0DFA1B00D1A9A6 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 		017452C32B0E458300326750 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		017452C92B0E46B300326750 /* NMButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NMButtonStyle.swift; sourceTree = "<group>"; };
 		017452CB2B0E51EE00326750 /* NMBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NMBackground.swift; sourceTree = "<group>"; };
+		017452D12B14F43200326750 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		01CFFA402B0DFA1A00D1A9A6 /* Daynight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Daynight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01CFFA432B0DFA1A00D1A9A6 /* DaynightApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaynightApp.swift; sourceTree = "<group>"; };
 		01CFFA452B0DFA1A00D1A9A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 		01CFFA372B0DFA1A00D1A9A6 = {
 			isa = PBXGroup;
 			children = (
+				017452D12B14F43200326750 /* Launch Screen.storyboard */,
 				01CFFA422B0DFA1A00D1A9A6 /* Daynight */,
 				01CFFA412B0DFA1A00D1A9A6 /* Products */,
 			);
@@ -150,6 +153,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				017452D22B14F43200326750 /* Launch Screen.storyboard in Resources */,
 				01CFFA4B2B0DFA1B00D1A9A6 /* Preview Assets.xcassets in Resources */,
 				01CFFA482B0DFA1B00D1A9A6 /* Assets.xcassets in Resources */,
 			);
@@ -297,6 +301,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Daynight/Preview Content\"";
@@ -325,6 +330,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Daynight/Preview Content\"";
