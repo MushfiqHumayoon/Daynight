@@ -25,6 +25,7 @@ The app's interface features neumorphic design elements, characterized by subtle
   <img src="https://github.com/MushfiqHumayoon/Daynight/blob/main/Screenshots/DarkMode.png" alt="App Screenshot" width="300">
   <img src="https://github.com/MushfiqHumayoon/Daynight/blob/main/Screenshots/LightMode.png" alt="App Screenshot" width="300">
 </p>
+
 ## Getting Started
 
 1. **Clone the Repository:**
